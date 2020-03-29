@@ -1,0 +1,21 @@
+{
+  "detail-type": [
+    "AWS API call via CloudTrail"
+  ],
+  "source": [
+    "aws.s3"
+  ],
+  "detail": {
+    "eventSource": [
+      "s3.amazonaws.com"
+    ],
+    "requestParameters": {
+      "bucketName": [
+        "cdk-osenchi-logbucket"
+      ]
+    },
+    "eventName": [
+      "PutObject"
+    ]
+  }
+}
